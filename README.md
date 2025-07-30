@@ -2,7 +2,7 @@
 
 Welcome to your personal Python learning space, supercharged by Gemini! This repository is designed to take you from a Python newbie to a pro, one lesson at a time.
 
-This project is inspired by the [python-learning-space](https://github.com/madebygps/python-learning-space) by @madebygps.
+This project is inspired by the [python-learning-space](https://github.com/madebygps/python-learning-space) by @madebygps and the book "Think Python, 3rd Edition" by Allen Downey.
 
 ## How It Works
 
@@ -14,7 +14,7 @@ This repository is set up as a [VS Code Development Container](https://code.visu
     *   [Docker Desktop](https://www.docker.com/products/docker-desktop/)
     *   [Visual Studio Code](https://code.visualstudio.com/)
     *   [VS Code Dev Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
-    *   [Gemini Code Assist in VS Code] (https://codeassist.google/)
+    *   [Gemini Code Assist in VS Code](https://codeassist.google/)
 
 2.  **Clone the repository** to your local machine.
 
