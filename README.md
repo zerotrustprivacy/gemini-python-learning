@@ -14,6 +14,7 @@ This repository is set up as a [VS Code Development Container](https://code.visu
     *   [Docker Desktop](https://www.docker.com/products/docker-desktop/)
     *   [Visual Studio Code](https://code.visualstudio.com/)
     *   [VS Code Dev Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
+    *   [Gemini Code Assist in VS Code] (https://codeassist.google/)
 
 2.  **Clone the repository** to your local machine.
 
