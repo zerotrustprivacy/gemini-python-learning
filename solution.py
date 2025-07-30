@@ -7,7 +7,7 @@ first_name = "Ada"
 your_age = 30
 
 # A float variable named `account_balance`
-account_balance = 150.
+account_balance = 150.75
 
 # A boolean variable named `is_active_user`
 is_active_user = True
