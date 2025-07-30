@@ -4,28 +4,24 @@ Welcome, future Pythonista! Ready to go from newbie to pro? You're in the right 
 
 This isn't just another tutorial; it's your personal coding dojo, designed to be a structured, hands-on learning environment. With Gemini as your AI coding partner, you'll tackle challenges, understand complex topics, and build a solid foundation in Python.
 
-This project is inspired by the [python-learning-space](https://github.com/madebygps/python-learning-space) created by the amazing @madebygps and the book "Think Python, 3rd Edition" by Allen Downey.
+This project is inspired by the [python-learning-space](https://github.com/madebygps/python-learning-space) by @madebygps.
 
-## ✨ Why ?
+## How It Works
 
-*   **Structured Path**: Follow a clear, step-by-step curriculum.
-*   **Hands-On Challenges**: Learn by *doing* with practical exercises in every lesson.
-*   **Your AI Coding Partner**: Use the integrated Gemini extension to ask questions, get hints, and understand code.
-*   **Zero-Setup Environment**: Start coding in a fully configured environment with a single click. No "it works on my machine" problems here!
+This repository is set up as a [VS Code Development Container](https://code.visualstudio.com/docs/devcontainers/containers), which provides a complete, isolated, and consistent development environment. It ensures you have all the right tools and extensions without needing to install Python or anything else on your local machine.
 
-## 🏁 Getting Started in 3 Easy Steps
+### Getting Started
 
-### Prerequisites
-First, make sure you have the essential gear:
-*   [Docker Desktop](https://www.docker.com/products/docker-desktop/) 🐳
-*   [Visual Studio Code](https://code.visualstudio.com/) 💻
-*   [VS Code Dev Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) 🔌
-*   [Gemini Code Assist](https://codeassist.google/)
+1.  **Prerequisites**:
+    *   [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+    *   [Visual Studio Code](https://code.visualstudio.com/)
+    *   [VS Code Dev Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
 
-### Liftoff!
-1.  **Clone Your Dojo**: Clone this repository to your local machine.
-2.  **Enter the Container**: Open the project folder in VS Code. A pop-up will appear in the bottom-right corner. Click **"Reopen in Container"**.
-3.  **Start Your Journey**: VS Code will set everything up. Once it's ready, open the `lessons` folder and begin with Lesson 1. Happy coding!
+2.  **Clone the repository** to your local machine.
+
+3.  **Open in VS Code**: Open the cloned repository folder in VS Code. You should see a pop-up in the bottom-right corner asking if you want to "Reopen in Container". Click it.
+
+4.  **Start Learning**: VS Code will build the container and install the necessary extensions. Once it's ready, navigate to the `lessons` directory and start with the first lesson!
 
 ## 📚 Lesson Plan
 
