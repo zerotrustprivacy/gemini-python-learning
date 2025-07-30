@@ -7,7 +7,7 @@
 # 1. Below each comment, create a variable with the specified name and data type.
 # 2. Assign a value to each variable that matches its data type.
 # 3. After you've created all the variables, run this file by opening a terminal
-#    (Ctrl+` or Cmd+`) and typing `python lessons/01-variables-and-data-types/challenge.py`
+#    (Ctrl+` or Cmd+`) and typing `python "lessons/Lesson 1/challenge.py"`
 #    to see the output.
 
 # A string variable named `first_name`
