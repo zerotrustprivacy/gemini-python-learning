@@ -35,5 +35,10 @@ Each lesson folder contains three key files:
 |:---|:---|:---:|
 | 01 | Variables & Data Types | ✅ Complete |
 | 02 | *Coming Soon...* | ⏳ In Progress |
+| 03 | Functions and Interfaces | ⏳ In Progress |
+| 04 | Conditionals and Recursions | ⏳ In Progress |
+| 05 | Return Values | ⏳ In Progress |
+| 06 | Iteration and Search | ⏳ In Progress |
+| 07 | Strings and Regex | ⏳ In Progress |
 
 ---
