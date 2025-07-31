@@ -1,32 +1,35 @@
-Python Learning Space - AI Coding Assistant Instructions
-Project Overview
-This is a Python learning repository organized around specific language concepts. Each topic gets its own directory with exercises, examples, and documentation. The goal is hands-on learning through practical code examples.
+## Gemini Python Learning Space - AI Assistant Instructions
 
-Project Structure & Patterns
-Topic-based directories: Each Python concept lives in its own folder (e.g., list-comps/, unpacking/)
-Consistent README structure: Every topic directory contains a README.md explaining the concept and containing exercises
-Learning progression: Start with README explanations, then build practical examples
-Single entry point: main.py serves as a simple project runner
-Development Environment
-Python 3.13 (see .python-version)
-Virtual environment: .venv/ for isolated dependencies
-uv/pip: Dependency management via pyproject.toml
-Key Workflows
-Creating New Learning Topics
-Create new directory: mkdir new-topic/
-Add README with concept explanation: echo "# Learning [Topic] in Python\n\nIn this folder you will find notes, exercises, snippets, and examples related to [topic] in Python." > new-topic/README.md
-Build examples as separate .py files within the topic directory
-Running Code
-Topic examples: Run individual Python files within topic directories
-Virtual environment: Always activate .venv before running code
-File Organization
-Notes: Use README.md for concept explanations and exercise descriptions
-AI Assistant Guidelines
+### Project Overview
+This repository is a structured, hands-on learning environment for Python, assisted by Gemini. The goal is to guide users from beginner to advanced levels through a series of self-contained lessons. The project emphasizes learning by doing within a pre-configured, secure development container.
+
+### Project Structure & Patterns
+*   **Lesson-based directories**: All content is organized within the `lessons/` directory.
+*   **Numbered and Descriptive Naming**: Each lesson resides in its own folder, named with a numeric prefix and a descriptive, kebab-case title (e.g., `01-variables-and-data-types`, `02-working-with-strings`). This ensures chronological order and clarity.
+*   **Consistent File Structure**: Every lesson directory **must** contain three files:
+    *   `lesson.md`: A detailed explanation of the concept with code examples.
+    *   `challenge.py`: A set of exercises for the user to complete. It should include a self-checking mechanism where appropriate.
+    *   `solution.py`: The official, well-commented solution to the challenge.
+
+### Development Environment
+*   **VS Code Dev Container**: The project uses a Dev Container for a consistent, isolated, and zero-setup environment.
+*   **Docker Image**: The environment is built from the `mcr.microsoft.com/devcontainers/python:3.11-bullseye` image.
+*   **Dependencies**: Python packages are managed via `requirements.txt`.
+*   **Extensions**: The container automatically installs `ms-python.python`, `ms-python.vscode-pylance`, and `Google.gemini`.
+
+### Key Workflows
+*   **Creating a New Lesson**:
+    1.  Create a new directory inside `lessons/` (e.g., `mkdir lessons/02-working-with-strings`).
+    2.  Create the three required files: `lesson.md`, `challenge.py`, and `solution.py`.
+    3.  Populate the files with high-quality, educational content.
+    4.  Update the lesson table in the main `README.md` to include the new lesson.
+
+### AI Assistant Guidelines
 When helping with this codebase:
 
-Maintain topic isolation: Keep each concept in its dedicated directory
-Follow naming patterns: Use descriptive names that clearly indicate the Python concept being demonstrated
-Provide progressive examples: Start simple, then build complexity within each topic
-Include explanatory comments: Code should be educational with clear comments explaining Python concepts
-Update READMEs: When adding new examples, reference them in the topic's README.md
-Use modern Python: Target Python 3.13 features and best practices
+*   **Tone**: Maintain a friendly, encouraging, and professional tone.
+*   **Clarity**: Ensure all explanations and code comments are clear, concise, and aimed at a learner.
+*   **Best Practices**: Use modern Python 3.11+ features and adhere to PEP 8 styling guidelines.
+*   **Maintain Structure**: Strictly follow the established file and directory structure for all new lessons.
+*   **Update README**: When adding a new lesson, always update the lesson plan table in the root `README.md`.
+*   **Security**: Do not include any sensitive information. Ensure all code is safe to run in the sandboxed container environment.
