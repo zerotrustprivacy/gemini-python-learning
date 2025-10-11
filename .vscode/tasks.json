@@ -1,0 +1,11 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Create README",
+			"type": "shell",
+			"command": "echo \"Gemini Python Learning Space\" > README.md",
+			"group": "build"
+		}
+	]
+}

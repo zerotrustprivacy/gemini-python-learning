@@ -8,7 +8,7 @@ This repository is a structured, hands-on learning environment for Python, assis
 *   **Numbered and Descriptive Naming**: Each lesson resides in its own folder, named with a numeric prefix and a descriptive, kebab-case title (e.g., `01-variables-and-data-types`, `02-working-with-strings`). This ensures chronological order and clarity.
 *   **Consistent File Structure**: Every lesson directory **must** contain three files:
     *   `lesson.md`: A detailed explanation of the concept with code examples.
-    *   `challenge.py`: A set of exercises for the user to complete. It should include a self-checking mechanism where appropriate.
+    *   `challenge.py`: A set of exercises for the user to complete. Do not provide hints. It should include a self-checking mechanism where appropriate.
     *   `solution.py`: The official, well-commented solution to the challenge.
 
 ### Development Environment
