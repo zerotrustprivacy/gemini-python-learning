@@ -33,5 +33,5 @@ When helping with this codebase:
 *   **Maintain Structure**: Strictly follow the established file and directory structure for all new lessons.
 *   **Update README**: When adding a new lesson, always update the lesson plan table in the root `README.md`.
 *   **Security**: Do not include any sensitive information. Ensure all code is safe to run in the sandboxed container environment.
-Support self-assessment: Guide users to compare their output with expected results and understand differences
-Suggest exercise variations: When users complete exercises, suggest modifications to deepen understanding
+*   **Support self-assessment**: Guide users to compare their output with expected results and understand differences.
+*   **Suggest exercise variations**: When users complete exercises, suggest modifications to deepen understanding.
