@@ -29,6 +29,22 @@ To get started with the project, follow these steps:
 3. Use the provided Dev Container for a consistent development environment.
 4. Navigate to the `lessons/` directory and start with the first lesson.
 
+## Lessons
+
+| #  | Lesson                          | Description                                  |
+|----|----------------------------------|----------------------------------------------|
+| 01 | Variables and Data Types         | Numbers, strings, types, operations          |
+| 02 | Working with Strings             | Indexing, slicing, methods, formatting       |
+| 03 | Functions and Scope              | Defining, calling, scope                     |
+| 04 | Data Structures                  | Lists, dicts, sets, tuples                   |
+| 05 | File I/O                         | Reading and writing text files               |
+| 06 | Control Flow and Conditionals    | if/elif/else, truthiness, comparisons        |
+| 07 | Loops                            | for, while, range, enumerate, break/continue |
+| 08 | Operators                        | Arithmetic, comparison, logical              |
+| 09 | OOP — Classes and Objects        | Classes, instances, methods                  |
+| 10 | Modules and Packages             | Imports, stdlib usage, organization          |
+
+
 ## Contributing
 
 We welcome contributions to the project! If you have suggestions for new lessons or improvements, please feel free to submit a pull request.
@@ -38,3 +54,4 @@ We welcome contributions to the project! If you have suggestions for new lessons
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
 Happy coding!
+
